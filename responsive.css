@@ -1,0 +1,102 @@
+@media screen and (max-width: 1200px) {
+    .about-section .about-content {
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .top-nav-section .nav-login {
+        display: none;
+    }
+
+    .top-nav-section .nav-links {
+        width: 80%;
+        float: left;
+    }
+    .top-nav-section .nav-links ul {
+        text-align: end;
+    }
+    .top-nav-section .nav-logo-area {
+        width: 20%;
+    }
+    .about-section .about-content {
+        width: 100%;
+    }
+    .about-section .about-image {
+        width: 100%;
+    }
+    .myskills-section .skills-project {
+        width: 100%;
+    }
+    .myskills-section .skills-progress {
+        width: 100%;
+    }
+    .service-container .Service-item:nth-child(2) {
+        width: 48%;
+    }
+    .service-container .Service-item:nth-child(3) {
+        width: 48%;
+    }
+
+    .service-container .Service-item:nth-child(4) {
+        width: 97%;
+        margin-top: 0.625rem;
+    }
+    .partner-section .partner-image .image {
+        width: 33%;
+        margin-bottom: 0.625rem;
+    }
+    .contact-section .contact-area .contact-location {
+        width: 100%;
+    }
+    .contact-section .contact-area .contact-form {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .top-nav-section .nav-login {
+        display: none;
+    }
+
+    .top-nav-section .nav-links {
+        text-align: end;
+        width: 20% !important;
+        float: left;
+    }
+    .top-nav-section .nav-links button {
+        display: inline-block;
+    }
+    .top-nav-section .nav-links ul {
+        text-align: end;
+        position: absolute;
+        top: 3.75rem;
+        background: #ddd;
+        padding: 1.25rem 0;
+        display: none;
+    }
+    .top-nav-section .nav-logo-area {
+        width: 80%;
+    }
+    .myskills-section .skills-project .project-item {
+        width: 100%;
+    }
+    .service-container .Service-item:nth-child(2) {
+        width: 97%;
+    }
+    .service-container .Service-item:nth-child(3) {
+        width: 97%;
+    }
+    .partner-section .partner-image .image {
+        width: 50%;
+    }
+    .copyright-wrapper .copyright-section .copyright-text {
+        width: 100%;
+    }
+    .copyright-wrapper .copyright-section .copyright-logo {
+        width: 100%;
+    }
+    .copyright-wrapper .copyright-section .copyright-text,
+    .copyright-wrapper .copyright-section .copyright-logo {
+        text-align: center;
+    }
+}

@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Css Reset Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+/* Css Reset End */
+
+/* Common Style Start */
+
+.w-50 {
+    width: calc(50% - 20px);
+    float: left;
+}
+.w-33 {
+    width: calc(33% - 10px);
+    float: left;
+}
+
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0.625rem;
+}
+p {
+    color: #2b2b2b;
+}
+/* Common Style End */
+
+/* Main Style Start */
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*  Heder top navbar Section Style */
+.top-nav-wrapper {
+    box-shadow: 0 0 0.625rem #ddd;
+    position: fixed;
+    width: 100%;
+    background: #ffffff8b;
+    backdrop-filter: blur(0.313rem);
+}
+.top-nav-section {
+    padding: 1.25rem 0.625rem;
+}
+.top-nav-section .nav-logo-area h1 span.always {
+    color: #72b22f;
+    display: inline-block;
+}
+.top-nav-section .nav-logo-area {
+    width: 20%;
+    float: left;
+    white-space: nowrap;
+}
+.top-nav-section .nav-logo-area h1 {
+    line-height: 1;
+}
+.top-nav-section .nav-links {
+    width: 65%;
+    float: left;
+}
+.top-nav-section .nav-links button {
+    padding: 0.625rem 0.938rem;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 0.625rem;
+    margin-right: 0.625rem;
+    display: none;
+}
+.top-nav-section .nav-links ul {
+    padding-top: 0.375rem;
+    text-align: center;
+}
+.top-nav-section .nav-links ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.top-nav-section .nav-links ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    padding: 0 1.25rem;
+    font-weight: 600;
+}
+.top-nav-section .nav-links ul li a:hover {
+    color: #72b22f;
+}
+.top-nav-section .nav-login {
+    width: 15%;
+    float: left;
+    text-align: end;
+}
+.top-nav-section .nav-login a.hire-me {
+    display: inline-block;
+    background: #72b22f;
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+    color: #fff;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.top-nav-section .nav-login a.hire-me i {
+    margin-right: 0.313rem;
+}
+/* About Section Style */
+.about-section {
+    padding: 6.25rem 0.625rem 0;
+}
+.about-section .about-content {
+    padding-top: 20%;
+}
+.about-section .about-content h4 {
+    font-size: 1.563rem;
+}
+.about-section .about-content h1 {
+    font-size: 3.438;
+    margin-top: 1.25rem;
+}
+.about-section .about-content p {
+    font-size: 1.25rem;
+    margin-top: 1.875rem;
+    margin-bottom: 3.125rem;
+}
+.about-section .about-content a {
+    display: inline-block;
+    text-decoration: none;
+    background: #72b22f;
+    color: #fff;
+    padding: 0.625rem 1.563rem;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    font-weight: 600;
+}
+.about-section .about-image {
+    float: left;
+}
+
+/* My Skills Section Style */
+
+.myskills-section .skills-project .project-item {
+    border: 0.125rem solid #ddd;
+    text-align: center;
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+    padding: 0.625rem;
+}
+.myskills-section .skills-project .project-item h2 {
+    color: #72b22f;
+    font-weight: 800;
+}
+.myskills-section .skills-project {
+    padding-top: 2%;
+}
+.myskills-section .skills-progress h1 {
+    margin-bottom: 1.25rem;
+}
+.myskills-section .skills-progress .progress-bars > div {
+    max-width: 100%;
+    background: #ddd;
+    height: 2.5rem;
+    margin-bottom: 0.625rem;
+    color: #ffff;
+}
+.myskills-section .skills-progress .progress-bars > div > div {
+    background: #000;
+    height: 100%;
+    padding-top: 0.438rem;
+    padding-left: 5%;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+.myskills-section .skills-progress .progress-bars > div > div label {
+    text-align: start;
+}
+.myskills-section .skills-progress .progress-bars > div > div .percent {
+    text-align: end;
+}
+.w-90 {
+    width: 90%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-70 {
+    width: 70%;
+}
+/* My Service Section Style */
+.service-container {
+    margin: 3.125rem auto;
+}
+.service-container > h1 {
+    text-align: center;
+    margin-bottom: 0.625rem;
+}
+.service-container .Service-item {
+    border: 1px solid #ddd;
+    padding: 1.875rem;
+    margin-right: 0.625rem;
+}
+.service-container .Service-item:nth-last-child() {
+    margin: 0;
+}
+.service-container .Service-item:nth-child(3) a {
+    background: #72b22f;
+    border: none;
+    color: #fff;
+}
+.service-container .Service-item > i {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+.service-container .Service-item h1 {
+    margin: 0.625rem 0;
+    color: #72b22f;
+}
+.service-container .Service-item a i {
+    margin-left: 0.625rem;
+}
+.service-container .Service-item a {
+    margin-top: 1.875rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 0.4rem 1.563rem;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+/* Partner Section Style */
+.partner-section h1 {
+    text-align: center;
+    margin-bottom: 0.938rem;
+}
+.partner-section .partner-image {
+    text-align: center;
+}
+.partner-section .partner-image img {
+    width: 6.25rem;
+    height: 4.375rem;
+}
+.partner-section .partner-image .image {
+    width: 16%;
+    float: left;
+}
+
+/* My portfolio Section Style */
+.portfolio-container {
+    margin: 3.125rem auto;
+}
+.portfolio-container h1 {
+    text-align: center;
+    margin: 0.625rem 0;
+}
+.portfolio-container .portfolio-images .image {
+    margin-right: 10px;
+    border-radius: 0.625rem;
+    -webkit-border-radius: 0.625rem;
+    -moz-border-radius: 0.625rem;
+    -ms-border-radius: 0.625rem;
+    -o-border-radius: 0.625rem;
+}
+.portfolio-container .portfolio-images .image img {
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+
+/* Contact Section Style */
+
+.contact-section {
+    padding: 1.25rem 0;
+}
+.contact-section h1 {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+.contact-section .contact-area > div:first-child {
+    margin-right: 1.25rem;
+}
+.contact-section .contact-area .contact-location {
+    padding: 0 1.25rem;
+}
+.contact-section .contact-area .contact-location iframe {
+    width: 100%;
+    height: 18.75rem;
+}
+.contact-section .contact-area .contact-form {
+    padding: 0 1.25rem;
+}
+.contact-section .contact-area .contact-form input:not(input[type="submit"]),
+.contact-section .contact-area .contact-form textarea {
+    height: 2.812rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
+    padding-left: 0.625rem;
+    margin-top: 0.625rem;
+    outline: none;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+}
+.contact-section .contact-area .contact-form input:focus,
+.contact-section .contact-area .contact-form textarea:focus {
+    border: 0.063rem solid #72b22f !important;
+    box-shadow: 0 0 0.125rem 0.188rem #73b22f6a !important;
+}
+.contact-section .contact-area .contact-form textarea {
+    padding-top: 0.625rem;
+    height: 175px;
+}
+
+.contact-section .contact-area .contact-form input[type="submit"] {
+    border: none;
+    padding: 0.725rem 2.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #72b22f;
+    color: #fff;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    margin-top: 1.25rem;
+    cursor: pointer;
+}
+
+/* Copyright Section Style */
+.copyright-wrapper {
+    background: #eee;
+}
+.copyright-wrapper .copyright-section {
+    padding: 1.25rem 0.625rem 2.125rem;
+    white-space: nowrap;
+}
+.copyright-wrapper .copyright-section .copyright-logo h1 span {
+    color: #72b22f;
+}
+.copyright-wrapper .copyright-section .copyright-text {
+    text-align: end;
+    padding-top: 0.7rem;
+}
+/* Main Style Start */
