@@ -56,13 +56,15 @@
     .top-nav-section .nav-links ul.navigation {
         position: absolute;
         background: #ddd;
+        box-shadow: 0 0 10px #ddd;
         width: 100%;
         left: 0;
         top: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        opacity: 0;
+        transform: scaleY(0);
+        transform-origin: top;
         height: 0;
         transition: 1s all ease;
         -webkit-transition: 1s all ease;
@@ -71,7 +73,11 @@
         -o-transition: 1s all ease;
         overflow: hidden;
         padding: 0;
-    }
+        -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+}
     .btn-active {
         background: #72b22f;
         border: 1px solid #2626;
@@ -83,9 +89,13 @@
         color: #fff;
     }
     .menu-active {
-        opacity: 1 !important;
+        transform: scaleY(1) !important;
         height: auto !important;
-    }
+        -webkit-transform: scaleY(1) !important;
+        -moz-transform: scaleY(1) !important;
+        -ms-transform: scaleY(1) !important;
+        -o-transform: scaleY(1) !important;
+}
     .top-nav-section .nav-links {
         text-align: end;
         width: 20% !important;
